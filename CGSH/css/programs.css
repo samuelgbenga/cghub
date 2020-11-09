@@ -1,0 +1,53 @@
+/*------------*/
+/*---carousel section------*/
+#carouselExampleSlidesOnly
+{
+  margin-top: 1px;
+}
+.carousel-item img
+{
+  height: 700px;
+}
+/*------------*/
+/*------marque class-----*/
+.marquee-class
+{
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+/*-----profile section-------*/
+#prog-profile
+{
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.profile img
+{
+  border:2px solid #fff;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.profile
+{
+  margin-right: 20%;
+  margin-left: 20%;
+  padding: 14px 16px;
+  background: #999;
+  border-radius: 5px;
+}
+.profile:hover
+{
+  background: #007bff;
+  cursor: pointer;
+  transition: 0.7s
+}
+#prog-profile h1
+{
+  text-align: center;
+  color: #f4f4f4;
+}
+
+

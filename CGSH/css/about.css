@@ -1,0 +1,170 @@
+/*-------Team section------*/
+#team
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #fff;
+	background-color: #333;
+}
+#team h1
+{
+	text-align: center;
+	color: #fff!important;
+	padding-bottom: 10px;
+}
+#team h1::after
+{
+	content: '';
+	background: #007bff;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+.profile-pic
+{
+	margin-top: 25px;
+}
+.profile-pic .img-box
+{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.profile-pic .img-box img
+{
+	filter: grayscale(1);
+	border-radius: 5%;
+}
+.profile-pic .img-box img:hover
+{
+	filter: grayscale(0);
+	cursor: pointer;
+}
+.profile-pic h2
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #007bff!important;
+}
+.profile-pic h3
+{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+#team .fa
+{
+	height: 25px;
+	width: 25px;
+	color: #007bff!important;
+	background: #fff;
+	padding: 4px;
+	border-radius: 50%;
+}
+.img-box ul
+{
+	padding: 15px 0;
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+}
+.img-box ul li
+{
+	padding: 5px;
+	display: inline-block;
+}
+.img-box:hover ul
+{
+	opacity: 1;
+}
+.img-box ul, .img-box ul li
+{
+	transition:0.5s;
+}
+/*-----other staffs-------------*/
+.others
+{
+  margin-left: 15%;
+  margin-right: 25%;
+  margin-top: 0;
+  border: 1px solid #999;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.others img
+{
+  width: 60px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+
+}
+.others .col-md-2
+{
+  padding-left: 10%;
+}
+
+.others .row
+{
+  margin-top: 50px;
+}
+.others
+{
+  margin-bottom: 60px;
+}
+/*-----More others-----*/
+.others #more
+{
+	display: none;
+}
+/*-----More buttons under others------*/
+.js-button button
+{
+	background: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding:10px 14px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#r-button
+{
+	display: inline-block;
+	margin-left: 5px;
+}
+#l-button 
+{
+	float: right;
+	margin-right: 5px;
+}
+
+@media only screen and ( max-width: 990px)
+{
+.others .col-md-2
+  {
+    padding-left: 5%;
+  }
+}
+/*----Main about section with logo----*/
+#short-about
+{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url(../pictures/imgE1.png);
+  background-repeat: no-repeat; 
+  background-position: center;
+  color: #efefef!important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#short-about .short-about-content
+{
+	text-align: center
+}
+
